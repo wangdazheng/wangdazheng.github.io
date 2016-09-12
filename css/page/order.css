@@ -1,0 +1,114 @@
+.paymet_block { width: 100%; }
+.form-box { width: 100%; padding-bottom: 10px; }
+.form-box h2 { color: #2d2d2d; font-weight: normal; padding: 0 15px; line-height: 39px; border-bottom: 1px solid #d8d8d8; }
+.form-box .p-list { border-bottom: 1px solid #d8d8d8; background: #fff; line-height: 39px; padding: 0 15px; color: #777; position: relative; }
+.form-box .selected { height: auto; line-height: 22px; }
+.form-box .selected a { display: block; line-height: 22px; padding: 10px 0; color: #555 }
+.form-box .selected a strong {/*color:#888; */font-weight: normal }
+.form-box .selected a .phone { float: right; }
+.form-box .selected a b{float: right;color:#c62026;font-weight: normal}
+
+
+.form-box .p-arrow a { background: url(../../images/arrow_r.png) no-repeat right center; background-size: 7px 12px; color: #777; display: block; line-height: 22px; padding: 8px 0; }
+.form-box .select-invoice a { color: #555 }
+.form-box .select-invoice .select-option { display: inline-block; width: 40px; line-height: 21px; font-size: 12px; text-align: right; background-image: url(../../images/radio.png); background-repeat: no-repeat; background-position: 55px -5px; background-size: 21px; padding: 5px 0 5px 55px; }
+.form-box .select-invoice .cur { background-position: 55px -45px; }
+.form-box .pord_info { height: auto; }
+.form-box .pord_info a { display: block; padding: 10px 0; }
+.form-box .pord_info img { float: left; margin: 0 10px; }
+.form-box .pord_info ins { margin-left: 15px; text-decoration: none; line-height: normal; float: left; }
+.form-box .pord_info i { color: #2d2d2d; font-size: 13px; line-height: 16px; display: block; width: 190px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin-bottom: 5px; }
+.form-box .pord_info span { display: block; position: absolute; right: 10px; top: 16px; font-size: 16px; color: #c62026 }
+.form-box .pord_info em { display: inline-block; line-height: 30px; height: 30px; color: #888; font-size: 14px; width: 100px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.form-box .invoice { height: auto; line-height: 24px; padding: 10px 15px; display: none }
+.form-box .invoice a { color: #888; height: auto; }
+.form-box .invoice em { color: #2d2d2d; }
+.form-box .payment-method span { display: block; line-height: normal; padding: 5px 0 5px 15px; height: 29px; line-height: 29px; }
+.form-box .payment-method span a { display: block; color: #555; background: url(../../images/radio.png) no-repeat right -5px; background-size: 21px; }
+.form-box .payment-method span a.cur { background: url(../../images/radio.png) no-repeat right -45px; background-size: 21px; }
+.form-box .payment-method span a em { font-size: 13px; color: #555; }
+.form-box .payment-method span.weixinPay { background-image: url(../../images/bank.png); background-repeat: no-repeat; background-size: 45px; background-position: 0 -160px; padding-left: 55px; }
+.form-box .total { text-align: right; font-size: 13px; line-height: 24px; padding: 10px 15px; }
+.form-box .total em { display: block; color: #c62026; }
+.form-box .total i { display: inline-block; width: 60px; text-align: left; }
+.form-box .get-invoice span { display: block; line-height: normal; padding: 5px 0 5px 15px; height: 29px; line-height: 29px; }
+.form-box .get-invoice span a { display: block; color: #555; background: url(../../images/radio.png) no-repeat right -5px; background-size: 21px; }
+.form-box .get-invoice span a.cur { background: url(../../images/radio.png) no-repeat right -45px; background-size: 21px; }
+.form-box .get-invoice span a em { font-size: 14px; color: #555; }
+/*提交按钮*/
+.paymet_block .payment_submit { position: relative; margin: 15px; height: 40px; }
+.paymet_block .payment_submit_bg { background: #fff; margin: 10px 0 0; border-top: #d8d8d8; padding: 15px }
+.paymet_block .payment_submit .btn-icon { width: 100%; height: 38px; overflow: hidden; }
+.paymet_block .payment_submit .btn-icon a { float: left; display: block; width: 48%; box-sizing: border-box; background-color: #c62026; border: 1px solid #c62026; height: 38px; line-height: 38px; color: #fff; text-align: center; font-size: 14px; }
+.paymet_block .payment_submit .btn-icon a.cancel-btn { margin-right: 4%; }
+.paymet_block .payment_submit .btn-icon a.total_amount { background-color: transparent; border: 0; color: #555555; }
+.paymet_block .payment_submit .btn-icon a.total_amount em { color: #c62026; }
+.paymet_block .payment_submit .payment_btn { background-color: #c62026; border: 1px solid #c62026; height: 38px; line-height: 38px; color: #fff; text-align: center; font-size: 18px; display: block; box-sizing: border-box; }
+.paymet_block .payment_submit .contiu_btn { background-color: #fff; border: 1px solid #c62026; color: #c62026; height: 38px; line-height: 38px; text-align: center; font-size: 18px; display: block; box-sizing: border-box; }
+/* 支付成功 */
+.paymet_block .paymet_success { margin: 50px 0 30px; background: url(../../images/pay_success.png) no-repeat center 0; background-size: 53px; text-align: center; padding: 53px 0 0 0; }
+.paymet_block .paymet_success.pay_fail{background: url(../../images/pay_fail.png) no-repeat center 0; background-size: 53px;}
+.paymet_block .paymet_success h3 { line-height: 30px; font-size: 16px; font-weight: normal; color: #222; margin-top: 10px; }
+.paymet_block .paymet_success .notice { color: #777; width: 154px; margin: 15px auto 0; text-align: left; font-size: 14px; line-height: 24px; }
+.paymet_block .payment_submit a { display: block; width: 50%; float: left; box-sizing: border-box; text-align: center; font-size: 16px; }
+.paymet_block .payment_submit a:nth-child(2) { margin-right: -10px; float: right; }
+/*我的地址页面*/
+.my-address-box { margin: 0 10px; padding-top: 12px; }
+.my-address-box .my-address-list { margin-bottom: 12px; background: #fff; border: 1px solid #e5e5e5; padding: 15px 20px 10px; }
+.my-address-box .my-address-list .user-info { font-size: 14px; color: #333; margin-bottom: 10px; }
+.my-address-box .my-address-list .user-info span { display: block; float: left; }
+.my-address-box .my-address-list .user-info em { display: block; float: right; }
+.my-address-box .my-address-list p { font-size: 12px; color: #333; line-height: 16px; margin-bottom: 15px; }
+.my-address-box .my-address-list .address-btn-box li { float: left; width: 30%; line-height: 20px; font-size: 12px; vertical-align: top; text-align: center }
+.my-address-box .my-address-list .address-btn-box li a { display: block; color: #333; }
+.my-address-box .my-address-list .address-btn-box li i { display: inline-block; width: 15px; height: 15px; margin-right: 8px; margin-top: 2px; vertical-align: top; }
+.my-address-box .my-address-list .address-btn-box li.change-ads-btn { text-align: left; }
+.my-address-box .my-address-list .address-btn-box li.set-ads-btn { width: 40%; text-align: right; }
+.my-address-box .my-address-list .address-btn-box li.set-ads-btn.cur { color: #c62026; }
+.my-address-box .add-ads-btn { display: block; width: 50%; margin: 30px auto; line-height: 32px; text-align: center; font-size: 14px; background: #fff; border: 1px solid #ccc; color: #4c4c4c; }
+.my-address-box .address-bottom-box{ margin-bottom:20px;}
+.my-address-box .address-bottom-box a{ display:block; width:48%; float:left;box-sizing: border-box; text-align: center; font-size: 14px;background: #fff; border: 1px solid #ccc;color: #4c4c4c;line-height: 38px;}
+.my-address-box .address-bottom-box a:nth-child(2) { float: right; }
+
+/*收货地址start*/
+.add-address-box {}
+.add-address-box p { border-bottom: 1px solid #d8d8d8; background-color: #fff; height: 39px; line-height: 39px; color: #999; padding: 0 15px; position: relative; }
+.add-address-box .p-arrow a { background: url(../../images/arrow_r.png) no-repeat right center; background-size: 7px 12px; color: #777; display: block; line-height: 22px; padding: 8px 0; }
+.add-address-box p label {display: inline-block;margin: 0 10px 0 0;width: 75px;font-size: 14px;color: #777;}
+.add-address-box p input{border: 1px solid #fff;background: rgba(0,0,0,0);height: 29px; line-height:29px;width: 65%;z-index: 0;font-size: 12px;padding: 0 5px;}
+.add-address-box p .error::-webkit-input-placeholder{color: #f24b48;}
+.add-address-box .select-sex em { display:inline-block; color: #555; margin-right:20px; }
+.add-address-box .select-sex span{ display: inline-block; width: 40px; line-height: 21px; font-size: 12px; text-align: right; background-image: url(../../images/radio.png); background-repeat: no-repeat; background-position: 35px -5px; background-size: 21px; padding: 5px 0 5px 35px; }
+.add-address-box .select-sex .cur { background-position: 35px -45px;}
+
+.add-address-box .agreement em{ display:inline-block; width:21px; height:39px;background-image: url(../../images/radio.png); background-repeat:no-repeat; background-position: right 0; background-size: 21px;  margin-right:5px;}
+.add-address-box .agreement em.cur{ background-position:right -40px;}
+.add-address-box .agreement span{ display:inline-block;color:#000;line-height:39px;font-size:12px; vertical-align:top;}
+.add-address-box .address-submit-btn{display:block;width: 90%;background: #c62026;margin:25px auto 15px;line-height: 32px;text-align:center;border:1px solid #c62026;color:#fff;font-size:16px;}
+
+
+/*弹框显示地址*/
+#area_overlay { position: absolute; z-index: 99998; top: 0; left: 0; width: 100%; height: 100%; background-: rgba(0,0,0,.4); display: none; }
+#area_layer { position: fixed; width: 100%; max-width: 640px; bottom: 0; margin: 0 auto; z-index: 99999; background:#fff; display: none; }
+#area_layer h3 { color: #000; font-size: 16px; font-weight: normal; padding: 0 15px; line-height: 39px; box-sizing: border-box; background: #f2f2f2; border-top-left-radius: 5px; border-top-right-radius: 5px; text-align: center; }
+#area_layer dl { width: 100%; height: 207px; overflow: hidden; overflow-y: auto; }
+#area_layer dl:not(:first-of-type) { display: none; }
+#area_layer dd { border-bottom: 1px solid #d8d8d8; height: 39px; line-height: 39px; color: #999; padding: 0 15px; position: relative;z-index: 999999;  }
+#area_layer dd a { display: block; font-size: 12px; color: #555; background-image: url(../../images/radio.png); background-repeat:no-repeat; background-position: right 0; background-size: 21px; }
+#area_layer dd a.cur { background-position:right -40px; }
+#area_layer .prev_btn { position: absolute; top: 12px; left: 10px; background: url(../../images/prev_btn.png) 0 0 no-repeat; background-size: 15px; text-indent: -3000px; display: none; width: 15px; height: 15px; }
+#area_layer .close_btn { position: absolute; top: 12px; right: 10px; background: url(../../images/close.png) 0 0 no-repeat; background-size: 15px; text-indent: -3000px; display: block; width: 15px; height: 15px; }
+#area_layer h2 { background: #f2f2f2; padding: 0 15px; line-height: 32px; height: 32px; }
+#area_layer h2 a.cancel_btn, #area_layer h2 a.sure_btn { float: left; display: block; color: #f03232; font-size: 15px; font-weight: normal; }
+#area_layer h2 a.sure_btn { float: right; }
+
+
+
+
+/*固定尾部导航*/
+.footer-box { max-width: 640px; position: fixed; bottom: 0px; z-index: 10; width: 100%; height: 50px; border-top: 1px solid #ccc;background:rgba(255,255,255,0.95); padding:0 10px; box-sizing:border-box;}
+.footer-box a{ margin:8px 0; line-height:30px; display:block; width:25%; float:left; text-align:center;background: #fff;color: #c62026;border: 1px solid #c62026;}
+.footer-box a:last-child{float:right;}
+
+
+.js-my-address-box,.js-add-address-box{ display:none;}
